@@ -96,6 +96,7 @@ public class Drivetrain extends SubsystemBase {
     return (getLeftDistanceMeter() + getRightDistanceMeter()) / 2.0;
   }
 
+  
   /**
    * The acceleration in the X-axis.
    *
@@ -170,6 +171,13 @@ public class Drivetrain extends SubsystemBase {
    */
   public Pose2d getPose() {
     return m_odometry.getPoseMeters();
+  }
+  
+  public Pose2d getPoseRadians() {
+    Pose2d currentPoseDegrees = getPose();
+    //Pose2d currentPoseRadians = new Pose2d(currentPoseDegrees.getTranslation(),
+    //new Rotation2d(currentPoseDegrees.getRotation().getRadians()));
+    return currentPoseDegrees;
   }
 
   /**

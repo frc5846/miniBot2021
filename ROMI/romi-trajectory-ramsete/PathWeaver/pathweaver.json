@@ -1,9 +1,9 @@
 {
-  "lengthUnit": "Inch",
+  "lengthUnit": "Meter",
   "exportUnit": "Always Meters",
-  "maxVelocity": 0.05,
-  "maxAcceleration": 0.025,
-  "wheelBase": 0.13335,
-  "gameName": "Mondrian_Madness",
+  "maxVelocity": 1.0,
+  "maxAcceleration": 0.5,
+  "wheelBase": 0.142,
+  "gameName": "Infinite Recharge",
   "outputDir": ""
 }
