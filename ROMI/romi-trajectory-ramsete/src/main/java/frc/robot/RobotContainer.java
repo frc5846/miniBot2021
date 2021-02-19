@@ -104,7 +104,7 @@ public class RobotContainer {
     // Note that all coordinates are in meters, and follow NWU conventions.
     // If you would like to specify coordinates in inches (which might be easier
     // to deal with for the Romi), you can use the Units.inchesToMeters() method
-    String trajectoryJSON = "Pathweaver/output/Unnamed.wpilib.json";
+    String trajectoryJSON = "paths/Unnamed.wpilib.json";
     //Trajectory trajectory = new Trajectory();
       try {
     Path trajectoryPath = Filesystem.getDeployDirectory().toPath().resolve(trajectoryJSON);
